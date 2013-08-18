@@ -5,6 +5,7 @@ class RecordsController < ApplicationController
   # GET /records.json
   def index
     @records = Record.all
+    @sum = Record.sum
   end
 
   # GET /records/1

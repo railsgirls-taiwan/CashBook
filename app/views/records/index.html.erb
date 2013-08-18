@@ -34,6 +34,10 @@
     <% end %>
   </tbody>
 </table>
+<hr />
+<p>
+Total: <%= @sum %>
+</p>
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_record_path,
