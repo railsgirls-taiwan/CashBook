@@ -1,4 +1,6 @@
 CashBook::Application.routes.draw do
+  resources :categories
+
   resources :records
 
   # The priority is based upon order of creation: first created -> highest priority.
